@@ -1,0 +1,37 @@
+
+    User :
+            id
+            username
+            password
+            birthDate
+            firstName
+            lastName
+            roles
+
+    Role
+        id
+        name
+
+
+    Product
+        id
+        label
+        description
+        price
+        category
+
+    Category
+        id
+        label
+        description
+
+    Order
+        id
+        date
+        delivery
+        products
+        totalPrice
+
+    delivery
+        Address
+        deliveryPrice
