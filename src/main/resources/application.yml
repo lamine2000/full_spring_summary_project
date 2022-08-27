@@ -3,7 +3,10 @@ server:
 
 spring:
   profiles:
-    active: mysql
+    active: dev
+
+  config:
+    import: env.properties
 
 
 #spring:
