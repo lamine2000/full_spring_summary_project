@@ -31,3 +31,8 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Custom ###
+env.properties
+*.yml
+!src/main/resources/application-prod.yml
